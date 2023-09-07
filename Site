@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>RAJ - Payments</title>
+    <style>
+        body {
+            background-color: #003300; /* Deep green background */
+            color: white;
+            font-family: Arial, sans-serif;
+        }
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+        .header {
+            text-align: center;
+            font-size: 24px;
+        }
+        .wallet-addresses {
+            margin-top: 20px;
+        }
+        .wallet-address {
+            margin-bottom: 10px;
+        }
+        .footer {
+            text-align: center;
+            margin-top: 20px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <header class="header">
+            RAJ - Payments
+        </header>
+        <p>
+            Welcome to RAJ Payments. Here, you can find our crypto wallet addresses for easy payments.
+        </p>
+        <div class="wallet-addresses">
+            <!-- Add your crypto wallet addresses and QR code links here -->
+            <div class="wallet-address">
+                <p>Ethereum Address:</p>
+                <img src="ethereum-qr-code-link" alt="Ethereum QR Code">
+            </div>
+            <div class="wallet-address">
+                <p>Bitcoin Address:</p>
+                <img src="bitcoin-qr-code-link" alt="Bitcoin QR Code">
+            </div>
+            <!-- Add more wallet addresses and QR codes as needed -->
+        </div>
+        <footer class="footer">
+            <!-- Add your contact information or other details here -->
+            Contact: contact@rajpayments.com
+        </footer>
+    </div>
+</body>
+</html>
